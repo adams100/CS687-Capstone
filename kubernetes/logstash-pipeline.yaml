@@ -1,0 +1,12 @@
+apiVersion: logstash.k8s.elastic.co/v1alpha1
+kind: Logstash
+metadata:
+  name: quickstart
+spec:
+  version: 8.16.1
+  count: 1
+  elasticsearchRefs:
+    - clusterName: qs
+      name: quickstart
+  pipelinesRef:
+    secretName: quickstart-pipeline
