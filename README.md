@@ -2,6 +2,7 @@
 
 ## Scalable Waste Management IoT using ELK and Kubernetes
 ![Bin Full Video](binffull.gif)
+This study proposes a scalable solution to address waste management inefficiencies by using IoT sensors and a Kubernetes-based ELK system to monitor waste bin levels and create dynamic service schedules. Incorporating real-time data, weather forecasts, and usage patterns, the system reduces trash overflow, improves environmental conditions, and enhances waste infrastructure on a large scale.
 ### System Diagram
 ![Diagram1](diagram1.png)
 ### Photoelectric sensor
